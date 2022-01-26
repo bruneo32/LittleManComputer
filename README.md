@@ -9,9 +9,36 @@ Assembler and Interpreter for the LittleManComputer Code written in C
 	- Open CMD and type `lmc` to verify installation
 - *Linux:*
 	- Download [lmc.tar.gz](bin)
-	- Extract it anywhere (`tar xf lmc.tar.gz -C tarlmc`)
+	- Extract it anywhere:
+	```
+	$ mkdir tarlmc
+	$ tar xf lmc.tar.gz -C tarlmc
+	$ cd tarlmc
+	```
+	
 	- Run `./setup.sh`
+	```
+	$ ./setup.sh
+	Do you want to install  lmc (Interpreter)? [Y/n] y
+	> cp lmc /usr/bin/lmc
+
+	Do you want to install  lma (Assembler)? [Y/n] y
+	> cp lma /usr/bin/lma
+	
+	```
+	
 	- Type `lmc` to verify installation
+	```
+	$ lmc
+	No file specified.
+
+	Usage:
+	        From File:   lmc file.txt
+	  Debug From File:   lmc +file.txt
+	        Immediate:   lmc :901308901309508209902000 
+	  Debug Immediate:   lmc +:901308901309508209902000
+
+	```
 
 # Build
 - *Windows:*
