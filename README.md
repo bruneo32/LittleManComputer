@@ -9,7 +9,7 @@ Assembler and Interpreter for the LittleManComputer Code written in C
 	- Open CMD and type `lmc` to verify installation
 - *Linux:*
 	- Download [lmc.tar.gz](bin)
-	- Extract it anywhere (`tar xf lmc_X.X.tar.gz -C lmc`)
+	- Extract it anywhere (`tar xf lmc.tar.gz -C tarlmc`)
 	- Run `./setup.sh`
 	- Type `lmc` to verify installation
 
