@@ -1,15 +1,27 @@
 # LittleManComputer
 Assembler and Interpreter for the LittleManComputer Code written in C
 
-## Build
+# Installation
+- *Windows:*
+	- Download [lmc.zip](bin)
+	- Extract it anywhere
+	- Add the folder to the PATH ([howto](https://windowsloop.com/how-to-add-to-windows-path/))
+	- Open CMD and type `lmc` to verify installation
 - *Linux:*
-	- Run `./build.sh`
-	- Output: `bin/lma`, `bin/lmc`
-	- Requirements `apt install tcc`
+	- Download [lmc.tar.gz](bin)
+	- Extract it anywhere (`tar xf lmc_X.X.tar.gz -C lmc`)
+	- Run `./setup.sh`
+	- Type `lmc` to verify installation
+
+# Build
 - *Windows:*
 	- Run `build.bat`
 	- Output: `bin\lma.exe`, `bin\lmc.exe`
-	- Requirements [tcc for windows](http://download.savannah.gnu.org/releases/tinycc/)
+	- Requirements: [tcc for windows](http://download.savannah.gnu.org/releases/tinycc/)
+- *Linux:*
+	- Run `./build.sh`
+	- Output: `bin/lma`, `bin/lmc`
+	- Requirements: `apt install tcc`
 
 # Assembler
 - Comments
@@ -29,7 +41,10 @@ Assembler and Interpreter for the LittleManComputer Code written in C
 	- DAT
 
 # Using
-![example]()
+![example1](wiki/output1.png)
+![example2](wiki/output2.png)
+![example3](wiki/output3.png)
+![example4](wiki/output4.png)
 
 # Wiki
 ![wiki1](wiki/LittleManComputer.png)
