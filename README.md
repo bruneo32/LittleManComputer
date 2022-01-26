@@ -3,11 +3,11 @@ Assembler and Interpreter for the LittleManComputer Code written in C
 
 ## Build
 - *Linux:*
-	  - Run `./build.sh`
-	  - Output: `bin/lma`, `bin/lmc`
+	- Run `./build.sh`
+	- Output: `bin/lma`, `bin/lmc`
 - *Windows:*
-	  - Run `build.bat`
-	  - Output: `bin/lma.exe`, `bin/lmc.exe`
+	- Run `build.bat`
+	- Output: `bin/lma.exe`, `bin/lmc.exe`
 
 # Assembler
 - Comments
