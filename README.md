@@ -3,12 +3,12 @@ Assembler and Interpreter for the LittleManComputer Code written in C
 
 # Installation
 - *Windows:*
-	- Download [lmc.zip](bin)
+	- Download [lmc.zip](bin/lmc.zip)
 	- Extract it anywhere
 	- Add the folder to the PATH ([howto](https://windowsloop.com/how-to-add-to-windows-path/))
 	- Open CMD and type `lmc` to verify installation
 - *Linux:*
-	- Download [lmc.tar.gz](bin)
+	- Download [lmc.tar.gz](bin/lmc.tar.gz)
 	- Extract it anywhere:
 	```
 	$ mkdir tarlmc
