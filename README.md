@@ -7,7 +7,7 @@ Assembler and Interpreter for the LittleManComputer Code written in C
 	- Output: `bin/lma`, `bin/lmc`
 - *Windows:*
 	- Run `build.bat`
-	- Output: `bin/lma.exe`, `bin/lmc.exe`
+	- Output: `bin\lma.exe`, `bin\lmc.exe`
 
 # Assembler
 - Comments
