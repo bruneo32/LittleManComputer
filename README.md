@@ -5,9 +5,11 @@ Assembler and Interpreter for the LittleManComputer Code written in C
 - *Linux:*
 	- Run `./build.sh`
 	- Output: `bin/lma`, `bin/lmc`
+	- Requirements `apt install tcc`
 - *Windows:*
 	- Run `build.bat`
 	- Output: `bin\lma.exe`, `bin\lmc.exe`
+	- Requirements [tcc for windows](http://download.savannah.gnu.org/releases/tinycc/)
 
 # Assembler
 - Comments
