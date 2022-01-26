@@ -1,0 +1,23 @@
+; This program creates an array
+; Take a look at this with debugger
+; From: https://stackoverflow.com/questions/42579740/what-happens-to-instructions-given-to-the-little-man-in-the-lmc-that-begin-with
+
+			INP
+			BRZ zero		; nothing to do
+			STA size		; for later reference
+loop		SUB one
+			BRP continue
+			HLT				; placeholder for some processing
+continue	STA counter
+			INP
+dynamic		STA array
+			LDA dynamic
+			ADD one
+			STA dynamic
+			LDA counter
+			BRA loop
+zero		DAT 0
+one			DAT 1
+size		DAT
+counter		DAT
+array		DAT

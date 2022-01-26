@@ -72,6 +72,7 @@ Assembler and Interpreter for the LittleManComputer Code written in C
 ![example2](wiki/output2.png)
 ![example3](wiki/output3.png)
 ![example4](wiki/output4.png)
+![example5](wiki/output5.png)
 
 # Wiki
 ![wiki1](wiki/LittleManComputer.png)
